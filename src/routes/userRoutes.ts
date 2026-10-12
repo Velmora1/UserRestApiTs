@@ -1,5 +1,5 @@
 import { Router } from "express" 
-import { getUser, register, login, deleteUser, changePassword, deleteYourAccount, updateRole, getProfile } from "../controllers/userController" // тут імпортуємо функцію
+import { getUser, register, login, deleteUser, changePassword, deleteYourAccount, updateRole, getProfile } from "../controllers/userController" 
 import { authMiddleware } from "../middlewares/authMiddleware"
 import { roleMiddleware } from "../middlewares/roleMiddleware"
 
